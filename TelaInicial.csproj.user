@@ -4,5 +4,26 @@
     <Compile Update="FormInicio.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TelaAprender\ajuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\escolar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\FormAprender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\pedestre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\Placas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\proibido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaAprender\Travessia.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

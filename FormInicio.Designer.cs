@@ -1,6 +1,6 @@
 ﻿namespace TelaInicial
 {
-    partial class TelaInicial
+    partial class FormInicio
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             Label label2;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicio));
             ContainerInicial = new TableLayoutPanel();
             ContainerCentro = new TableLayoutPanel();
             ContainerBotoes = new TableLayoutPanel();
@@ -387,13 +387,13 @@
             pictureBox8.Name = "pictureBox8";
             pictureBox8.TabStop = false;
             // 
-            // TelaInicial
+            // FormInicio
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(234, 246, 255);
             Controls.Add(ContainerInicial);
-            Name = "TelaInicial";
+            Name = "FormInicio";
             Load += Form1_Load;
             ContainerInicial.ResumeLayout(false);
             ContainerCentro.ResumeLayout(false);
